@@ -19,7 +19,14 @@ class MainActivity : AppCompatActivity() {
             replaceFragment(fSatu())
         }
 
+        // Menghidupkan tombol navigasi atas sesuai instruksi modul
+        btnFragmentSatu.setOnClickListener {
+            replaceFragment(fSatu())
+        }
 
+        btnFragmentDua.setOnClickListener {
+            replaceFragment(fDua())
+        }
     }
 
     // Fungsi untuk membongkar-pasang Fragment di dalam container
